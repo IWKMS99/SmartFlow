@@ -1,0 +1,64 @@
+### --- General / OS --- ###
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+### --- IDEs (IntelliJ, VS Code) --- ###
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+### --- Java / Spring Boot / Gradle --- ###
+build/
+bin/
+out/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+src/main/resources/application-local.properties
+src/main/resources/application-local.yml
+
+### --- Frontend (React / Vite / Node) --- ###
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+.vite/
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+### --- Python / ML Service --- ###
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.python-version
+models/*.h5
+models/*.pth
+models/*.onnx
+dataset/
+
+### --- Docker & Infrastructure --- ###
+postgres_data/
+minio_data/
+rabbitmq_data/
+caddy_data/
+caddy_config/
+
+### --- Secrets & Configs --- ###
+secrets.properties
+*.pem
+*.key
+docker-compose.override.yml
